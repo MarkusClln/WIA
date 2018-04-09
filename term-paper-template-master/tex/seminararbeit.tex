@@ -1,0 +1,77 @@
+%% Preambel
+\documentclass[conference,compsoc,final,a4paper]{IEEEtran}
+\usepackage[utf8]{inputenx}
+
+%% Bitte legen Sie hier den Titel und den Autor der Arbeit fest
+\newcommand{\autoren}[0]{Cöllen, Markus}
+\newcommand{\dokumententitel}[0]{Kann Malware in Android-Apps automatisch gefunden
+werden?
+(Verschiedene Analysemethoden für Android-Apps)}
+
+\input{preambel} % Weitere Einstellungen aus einer anderen Datei lesen
+
+% Eigentliches Dokument beginnt hier
+% ----------------------------------------------------------------------------------------------------------
+
+% Kurze Zusammenfassung des Dokuments
+\begin{abstract}
+An dieser Stelle steht eine kurze Zusammenfassung des Inhaltes des Dokuments.
+\end{abstract}
+
+\tableofcontents
+
+\section{Einleitung}
+
+\section{Grundlagen}
+
+\subsection{Android und Sicherheitslücken}
+
+\subsection{App Store}
+
+\subsection{Malware}
+
+\subsubsection{Android als Ziel}
+
+\subsubsection{Klassifizierung}
+
+\section{Analysemethoden}
+
+\subsection{Statische Analyse}
+
+\subsubsection{Data Flow}
+
+\subsubsection{Control Flow}
+
+\subsection{Dynamische Analyse}
+
+\section{FlowDroid}
+
+\section{Crowdroid}
+
+\section{Fazit}
+
+ Eine Abkürzung = \ac{A2A} 
+ \cite[S.1]{Feng:2014:ASD:2635868.2635869} 
+ \cite{burguera2011crowdroid}
+ \cite{yan2012droidscope}
+ \cite{bartsch2014zertifizierte}
+ \cite{Ding:2017:MMG:3058060.3058065}
+ \cite{Spreitzenbarth2015}
+ \cite{Cesare:2010:CMU:1862294.1862301}
+ \cite{Arzt:2014:FPC:2666356.2594299}
+ \cite{6394931}
+
+%% --------------------------------------------------------------------
+
+\section*{Abkürzungen}
+\addcontentsline{toc}{section}{Abkürzungen}
+
+\begin{acronym}
+\acro{A2A}{Application-to-Application}
+\end{acronym}
+
+% Literaturverzeichnis
+\addcontentsline{toc}{section}{Literatur}
+\printbibliography
+
+\end{document}

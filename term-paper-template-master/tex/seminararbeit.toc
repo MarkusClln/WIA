@@ -7,7 +7,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Android und Sicherheitsl\IeC {\"u}cken}{1}{subsection.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}App Store}{1}{subsection.5}
+\contentsline {subsection}{\numberline {2.2}Google Play Store}{1}{subsection.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Malware}{1}{subsection.6}
 \defcounter {refsection}{0}\relax 
@@ -25,12 +25,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Dynamische Analyse}{1}{subsection.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}FlowDroid}{1}{section.14}
+\contentsline {section}{\numberline {4}Bouncer}{1}{section.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Crowdroid}{1}{section.15}
+\contentsline {section}{\numberline {5}FlowDroid}{1}{section.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Fazit}{1}{section.16}
+\contentsline {section}{\numberline {6}Crowdroid}{1}{section.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungen}{1}{section*.18}
+\contentsline {section}{\numberline {7}Fazit}{1}{section.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{1}{section*.18}
+\contentsline {section}{Abk\IeC {\"u}rzungen}{1}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literatur}{1}{section*.19}

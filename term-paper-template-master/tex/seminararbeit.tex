@@ -5,8 +5,7 @@
 %% Bitte legen Sie hier den Titel und den Autor der Arbeit fest
 \newcommand{\autoren}[0]{Cöllen, Markus}
 \newcommand{\dokumententitel}[0]{Kann Malware in Android-Apps automatisch gefunden
-werden?
-(Verschiedene Analysemethoden für Android-Apps)}
+werden?}
 
 \input{preambel} % Weitere Einstellungen aus einer anderen Datei lesen
 
@@ -24,16 +23,29 @@ An dieser Stelle steht eine kurze Zusammenfassung des Inhaltes des Dokuments.
 
 \section{Grundlagen}
 
-\subsection{Android und Sicherheitslücken}
+\subsection{Android als Ziel}
+Smartphones bieten aufgrund ihrer vielen Schittstellen zur Außenwelt, wie z.B. WLAN, Bluetooth, NFC, USB usw. viele Angriffspunkte. Ein Hauptgrund, warum Smartphones mit dem Android Betriebssystem so beliebt für Angreifer sind, ist der hohe Verbreitungsgrad dieser Geräte. Dieser liegt im Jahr 2018 bei ca. 86 Prozent und ist somit Sechs mal so hoch wie der Konkurrent IOS mit knapp 16 Prozent Marktanteil \cite{AndoidMarktanteil}. Weil Android unter der Apache Open-Source Lizenz freigegeben ist und das Betriebssystem auf dem Linux-Kernel basiert, können Hersteller das Andoid Betriebssystem beliebig verwenden und für ihre Produkte anpassen. Zudem dient der Linux-Kernel als eine Abstraktion zwischen Software und Hardware und somit kann Android auf verschiedenen Geräten eingesetzt werden. Aufgrund der Tatsache, dass Linux über ein etabliertes Sicherheitskonzept verfügt \cite{LinuxSicherheitskonzept}, greift Android auf viele Schutzmechanismen des Linux Kernels
+zurück oder benutzt diese als ihre Basis 
+\cite{scheid2012kapitel}. 
+
+\subsection{Android Update Problematik}
+
+Wie man in Abbildung \ref{fig_sim} sehen kann verdrängen die neueren Android Version die älteren, allerdings ist Android Oreo, mit gerade mal 4,6 Prozent, eine der am wenigsten vertretenden Version, obwohl sie schon seit dem 27. August 2017 auf dem Markt ist. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=8.5cm]{AndroidVersionen2}
+\caption{Android-Versionen~\cite{Android-Versionen}}
+\label{fig_sim}
+\end{figure}
+
+Dies liegt daran, dass nicht jede Andoid Version mit jedem Handy kompatible ist. Die Smartphone Hersteller müssen die Versionen an ihre Geräte und die jeweilige Hardware anpassen. Diese umfassen Anpassungen an WLAN, Kamera, Bluetooth, GPS  usw. Anschließend müssen die erstellten Anpassungen noch umfangreich getestet werden, was auchnoch viel Zeit in anspruch nimmt. Weil die Hersteller oft neue Produkte verkaufen wollen und das Updaten älterer Smartphones zu teuer und Zeitaufwendig ist, bleibt den Nutzern oft nichts anderes übrig, als neue Smartphones zu kaufen. Anderndfalls behält man ein Smartphone mit einer veralteten Version und bekannten Sicherheitslücken. \cite{scheid2012kapitel}.  
 
 \subsection{Google Play Store}
 Anders als bei IOS, bei welchem die Nutzer an den Apple Store gebunden sind, können die Android Benutzer selbst entscheiden welchen Store sie verwenden. Der Google Play Store ist mit 82 Milliarden Downloads \cite{GooglePlayDownloads} mit Abstand die größte Plattform. Er wurde am 28. August 2008 unter dem Namen Android Market veröffentlicht. Dieser bietet den Nutzern einfaches herunterladen und installieren von mobilen Anwendungen, sogenannten Apps. Im Google Play Store sind bereits über 3,7 Millionen Anwendungen  bereit zum Herunterladen \cite{Apps} und jeden Monat kommen ca. 30.000 neue Apps hinzu \cite{bartsch2014zertifizierte}. Durch den rasanten Wachstum steigt auch die Anzahl von schädlicher Software, sogenannter Malware. Der Anteil von bösartigen Apps ist von 2011 bis 2013 um 388\% gewachsen \cite{RiskIQ}. Da nicht alle Anwendungen von Mitarbeitern geprüft werden können hat Google das Programm Bouncer ins Leben gerufen (siehe Kapitel \ref{sec:Bouncer}).
 \subsection{Malware}
 Der Begriff Malware steht für malicous software und bezeichnet Programme, welche unerwünschte oder auch schädliche Funktionen ausführen. Sie stellen eine immer größer werdende Bedrohung dar und durch den rasanten Wachstum ist eine manuelle Auswertung mittlerweile unmöglich geworden. Obwohl es sich bei vielen neuen Arten um verschiedene Varianten bereits bekannter Malware handelt, müssen Analysten erst jedes Sample erneut analysieren um dies feststellen zu können \cite{trinius2010visualisierung}. Bei der Analyse kann Grundsätzlich in zwei Arten unterschieden werden, Statische und Dynamische Analyse (siehe Kapitel \ref{sec:Statische Analyse} und \ref{sec:Dynamische Analyse}).
 
-\subsection{Android als Ziel}
-Ein Hauptgrund, warum Smartphones mit dem Android Betriebssystem so beliebt für Angreifer sind, ist der hohe Verbreitungsgrad dieser Geräte. Dieser liegt im Jahr 2018 bei ca. 86 Prozent und ist somit Sechs mal so hoch wie der Konkurrent IOS mit knapp 16 Prozent Marktanteil \cite{AndoidMarktanteil}. Weil Android unter der Apache Open-Source Lizenz freigegeben ist und das Betriebssystem auf dem Linux-Kernel basiert, können Hersteller dieses beliebig verwenden und für ihre Produkte anpassen. Zudem dient der Linux-Kernel als eine Abstraktion zwischen Software und Hardware und somit kann Android auf verschiedenen Geräten eingesetzt werden. Aufgrund der Tatsache, dass Linux über ein etabliertes Sicherheitskonzept verfügt \cite{LinuxSicherheitskonzept}, greift Android auf viele Schutzmechanismen des Linux Kernels
-zurück oder benutzt diese als ihre Basis \cite{scheid2012kapitel}.
 
 \subsubsection{Klassifizierung}
 

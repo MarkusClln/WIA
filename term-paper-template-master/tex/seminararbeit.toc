@@ -5,34 +5,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Grundlagen}{1}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Android und Sicherheitsl\IeC {\"u}cken}{1}{subsection.4}
+\contentsline {subsection}{\numberline {2.1}Android als Ziel}{1}{subsection.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Google Play Store}{1}{subsection.5}
+\contentsline {subsection}{\numberline {2.2}Android Update Problematik}{1}{subsection.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Malware}{1}{subsection.6}
+\contentsline {subsection}{\numberline {2.3}Google Play Store}{1}{subsection.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Android als Ziel}{1}{subsection.7}
+\contentsline {subsection}{\numberline {2.4}Malware}{2}{subsection.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Klassifizierung}{1}{subsubsection.8}
+\contentsline {subsubsection}{\numberline {2.4.1}Klassifizierung}{2}{subsubsection.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Analysemethoden}{2}{section.9}
+\contentsline {section}{\numberline {3}Analysemethoden}{2}{section.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Statische Analyse}{2}{subsection.10}
+\contentsline {subsection}{\numberline {3.1}Statische Analyse}{2}{subsection.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Data Flow}{2}{subsubsection.11}
+\contentsline {subsubsection}{\numberline {3.1.1}Data Flow}{2}{subsubsection.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Control Flow}{2}{subsubsection.12}
+\contentsline {subsubsection}{\numberline {3.1.2}Control Flow}{2}{subsubsection.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Dynamische Analyse}{2}{subsection.13}
+\contentsline {subsection}{\numberline {3.2}Dynamische Analyse}{2}{subsection.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Bouncer}{2}{section.14}
+\contentsline {section}{\numberline {4}Bouncer}{2}{section.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}FlowDroid}{2}{section.15}
+\contentsline {section}{\numberline {5}FlowDroid}{2}{section.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Crowdroid}{2}{section.16}
+\contentsline {section}{\numberline {6}Crowdroid}{2}{section.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Fazit}{2}{section.17}
+\contentsline {section}{\numberline {7}Fazit}{2}{section.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungen}{2}{section*.19}
+\contentsline {section}{Abk\IeC {\"u}rzungen}{2}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{2}{section*.19}
+\contentsline {section}{Literatur}{2}{section*.20}

@@ -24,13 +24,13 @@ An dieser Stelle steht eine kurze Zusammenfassung des Inhaltes des Dokuments.
 \section{Grundlagen}
 
 \subsection{Android als Ziel}
-Smartphones bieten aufgrund ihrer vielen Schittstellen zur Außenwelt, wie z.B. WLAN, Bluetooth, NFC, USB usw. viele Angriffspunkte. Ein Hauptgrund, warum Smartphones mit dem Android Betriebssystem so beliebt für Angreifer sind, ist der hohe Verbreitungsgrad dieser Geräte. Dieser liegt im Jahr 2018 bei ca. 86 Prozent und ist somit Sechs mal so hoch wie der Konkurrent IOS mit knapp 16 Prozent Marktanteil \cite{AndoidMarktanteil}. Weil Android unter der Apache Open-Source Lizenz freigegeben ist und das Betriebssystem auf dem Linux-Kernel basiert, können Hersteller das Andoid Betriebssystem beliebig verwenden und für ihre Produkte anpassen. Zudem dient der Linux-Kernel als eine Abstraktion zwischen Software und Hardware und somit kann Android auf verschiedenen Geräten eingesetzt werden. Aufgrund der Tatsache, dass Linux über ein etabliertes Sicherheitskonzept verfügt \cite{LinuxSicherheitskonzept}, greift Android auf viele Schutzmechanismen des Linux Kernels
+Smartphones bieten aufgrund ihrer vielen Schittstellen zur Außenwelt, wie z.B. WLAN, Bluetooth, NFC, USB usw. viele Angriffspunkte. Ein Hauptgrund, warum Smartphones mit dem Android Betriebssystem so beliebt für Angreifer sind, ist der hohe Verbreitungsgrad dieser Geräte. Dieser liegt im Jahr 2018 bei ca. 86 Prozent und ist somit Sechs mal so hoch wie der Konkurrent IOS mit knapp 16 Prozent Marktanteil \cite{AndoidMarktanteil}. Weil Android unter der Apache Open-Source Lizenz freigegeben ist und das Betriebssystem auf dem Linux-Kernel basiert, können Hersteller das Android Betriebssystem beliebig verwenden und für ihre Produkte anpassen. Zudem dient der Linux-Kernel als eine Abstraktion zwischen Software und Hardware und somit kann Android auf verschiedenen Geräten eingesetzt werden. Aufgrund der Tatsache, dass Linux über ein etabliertes Sicherheitskonzept verfügt \cite{LinuxSicherheitskonzept}, greift Android auf viele Schutzmechanismen des Linux Kernels
 zurück oder benutzt diese als ihre Basis 
-\cite{scheid2012kapitel}. 
+\cite{scheid2012kapitel}.
 
-\subsection{Android Update Problematik}
+\subsection{Android Update Problematik}\label{sec:Android Update Problematik}
 
-Wie man in Abbildung \ref{fig_sim} sehen kann verdrängen die neueren Android Version die älteren, allerdings ist Android Oreo, mit gerade mal 4,6 Prozent, eine der am wenigsten vertretenden Version, obwohl sie schon seit dem 27. August 2017 auf dem Markt ist. 
+Wie man in Abbildung \ref{fig_sim} sehen kann verdrängen die neueren Android Versionen die älteren. Allerdings ist Android Oreo, mit gerade mal 4,6 Prozent, eine der am wenigsten vertretenen Version, obwohl sie die neueste und auch schon seit dem 27. August 2017 auf dem Markt ist. 
 
 \begin{figure}[!ht]
 \centering
@@ -39,15 +39,22 @@ Wie man in Abbildung \ref{fig_sim} sehen kann verdrängen die neueren Android Ve
 \label{fig_sim}
 \end{figure}
 
-Dies liegt daran, dass nicht jede Andoid Version mit jedem Handy kompatible ist. Die Smartphone Hersteller müssen die Versionen an ihre Geräte und die jeweilige Hardware anpassen. Diese umfassen Anpassungen an WLAN, Kamera, Bluetooth, GPS  usw. Anschließend müssen die erstellten Anpassungen noch umfangreich getestet werden, was auchnoch viel Zeit in anspruch nimmt. Weil die Hersteller oft neue Produkte verkaufen wollen und das Updaten älterer Smartphones zu teuer und Zeitaufwendig ist, bleibt den Nutzern oft nichts anderes übrig, als neue Smartphones zu kaufen. Anderndfalls behält man ein Smartphone mit einer veralteten Version und bekannten Sicherheitslücken. \cite{scheid2012kapitel}.  
+Dies liegt daran, dass nicht jede Android Version mit jedem Handy kompatibel ist. Die Smartphone Hersteller müssen die Versionen an ihre Geräte und die jeweilige Hardware anpassen. Diese umfassen Anpassungen an WLAN, Kamera, Bluetooth, GPS  usw. Anschließend müssen die erstellten Anpassungen noch umfangreich getestet werden, was auch noch viel Zeit in Anspruch nimmt. Weil die Hersteller oft neue Produkte verkaufen wollen und das Updaten älterer Smartphones zu teuer und zeitaufwendig ist, bleibt den Nutzern oft nichts anderes übrig, als neue Smartphones zu kaufen. Andernfalls behält man ein Smartphone mit einer veralteten Version und bekannten Sicherheitslücken. \cite{scheid2012kapitel}.  
+
+\subsection{Application Sandbox}
+\label{sec:Application Sandbox}
+Linux arbeitet als ein Mehrbenutzer-Betriebssystem. Dies bedeutet, dass es mehrere Nutzer geben kann und das Betriebssystem verhindert, dass Daten eines Nutzers von einem anderen Nutzer eingesehen, geändert oder gelöscht werden können. Diese Nutzermanagement wird beim Application Sanboxing verwendet. Hierbei erhält jede Applikation eine eigene Nutzer-ID und führt diese in einem separaten Prozess aus. Somit gewährleistet Android, dass eine Applikation anderen Applikationen oder dem Betriebssystem keinen Schaden zufügen kann. Sollte eine Applikation aber durch das Ausnutzen einer Schwachstelle oder einer Sicherheitslücke an Root-Rechte kommen, kann die Applikation dieses Application Sanboxing einfach umgehen. Wie schon in Abschnitt \ref{Android Update Problematik} beschrieben, gibt es wegen den stark verzögerten Android Updates oft Sicherheitslücken, welche über längere Zeit bekannt sind und leicht ausgenutzt werden können um Root-Rechte zu erlangen \cite{scheid2012kapitel}.
+
+\subsection{Permission Model}
+\label{sec:Permission Model}
+Standardmäßig hat eine Applikation keinen Zugriff auf Daten außerhalb der Sandbox. Sollte eine Applikation Systemressourcen außerhalb dieser verwenden wollen, muss erst eine Zugriffsanfrage gestellt werden. Geschützte Ressourcen sind z.B. Kamera, SMS, Bluetooth usw. \cite{PermissonModel}. Diese Rechte können allerdings nur angenommen oder abgelehnt werden. 
 
 \subsection{Google Play Store}
-Anders als bei IOS, bei welchem die Nutzer an den Apple Store gebunden sind, können die Android Benutzer selbst entscheiden welchen Store sie verwenden. Der Google Play Store ist mit 82 Milliarden Downloads \cite{GooglePlayDownloads} mit Abstand die größte Plattform. Er wurde am 28. August 2008 unter dem Namen Android Market veröffentlicht. Dieser bietet den Nutzern einfaches herunterladen und installieren von mobilen Anwendungen, sogenannten Apps. Im Google Play Store sind bereits über 3,7 Millionen Anwendungen  bereit zum Herunterladen \cite{Apps} und jeden Monat kommen ca. 30.000 neue Apps hinzu \cite{bartsch2014zertifizierte}. Durch den rasanten Wachstum steigt auch die Anzahl von schädlicher Software, sogenannter Malware. Der Anteil von bösartigen Apps ist von 2011 bis 2013 um 388\% gewachsen \cite{RiskIQ}. Da nicht alle Anwendungen von Mitarbeitern geprüft werden können hat Google das Programm Bouncer ins Leben gerufen (siehe Kapitel \ref{sec:Bouncer}).
+Anders als bei IOS, bei welchem die Nutzer an den Apple Store gebunden sind, können die Android Benutzer selbst entscheiden welchen Store sie verwenden. Der Google Play Store ist mit 82 Milliarden Downloads  \cite{GooglePlayDownloads} mit Abstand die größte Plattform. Er wurde am 28. August 2008 unter dem Namen Android Market veröffentlicht. Dieser bietet den Nutzern einfaches herunterladen und installieren von mobilen Anwendungen, sogenannten Applikationen. Im Google Play Store sind inzwischen über 3,7 Millionen Anwendungen  bereit zum Herunterladen \cite{Apps} und jeden Monat kommen ca. 30.000 neue Applikationen hinzu \cite{bartsch2014zertifizierte}. Durch den rasanten Wachstum steigt auch die Anzahl von schädlicher Software, sogenannter Malware. Der Anteil von bösartigen Applikationen ist von 2011 bis 2013 um 388\% gewachsen \cite{RiskIQ}. Da nicht alle Anwendungen von Mitarbeitern geprüft werden können, hat Google das Programm Bouncer ins Leben gerufen (siehe Kapitel \ref{sec:Bouncer}).
+Android bietet zudem die Möglichkeit per Remote-Verbindung Applikationen zu installieren und zu löschen. Hierfür braucht man lediglich Zugriff auf den Google Play Account. Falls ein Angreifer an diese Daten kommen sollte, könnte er ohne Erlaubnis des Nutzers, Applikationen aus dem Google Play Store auf dem Smartphone installieren.
 \subsection{Malware}
-Der Begriff Malware steht für malicous software und bezeichnet Programme, welche unerwünschte oder auch schädliche Funktionen ausführen. Sie stellen eine immer größer werdende Bedrohung dar und durch den rasanten Wachstum ist eine manuelle Auswertung mittlerweile unmöglich geworden. Obwohl es sich bei vielen neuen Arten um verschiedene Varianten bereits bekannter Malware handelt, müssen Analysten erst jedes Sample erneut analysieren um dies feststellen zu können \cite{trinius2010visualisierung}. Bei der Analyse kann Grundsätzlich in zwei Arten unterschieden werden, Statische und Dynamische Analyse (siehe Kapitel \ref{sec:Statische Analyse} und \ref{sec:Dynamische Analyse}).
+Der Begriff Malware steht für malicous software und bezeichnet Programme, welche unerwünschte oder auch schädliche Funktionen ausführen. Sie stellen eine immer größer werdende Bedrohung dar und durch den rasanten Wachstum ist eine manuelle Auswertung mittlerweile unmöglich geworden. Obwohl es sich bei vielen neuen Arten um verschiedene Varianten bereits bekannter Malware handelt, müssen Analysten erst jedes Sample erneut analysieren um dies feststellen zu können \cite{trinius2010visualisierung}. Bei der Analyse kann grundsätzlich in zwei Arten unterschieden werden: Statische und Dynamische Analyse (siehe Kapitel \ref{sec:Statische Analyse} und \ref{sec:Dynamische Analyse}).
 
-
-\subsubsection{Klassifizierung}
 
 \section{Analysemethoden}
 
@@ -60,10 +67,6 @@ Der Begriff Malware steht für malicous software und bezeichnet Programme, welch
 \subsection{Dynamische Analyse} \label{sec:Dynamische Analyse}
 
 \section{Bouncer} \label{sec:Bouncer}
-
-\section{FlowDroid}
-
-\section{Crowdroid}
 
 \section{Fazit}
 

@@ -9,30 +9,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Android Update Problematik}{1}{subsection.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Google Play Store}{1}{subsection.7}
+\contentsline {subsection}{\numberline {2.3}Application Sandbox}{1}{subsection.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Malware}{2}{subsection.8}
+\contentsline {subsection}{\numberline {2.4}Permission Model}{2}{subsection.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Klassifizierung}{2}{subsubsection.9}
+\contentsline {subsection}{\numberline {2.5}Google Play Store}{2}{subsection.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Analysemethoden}{2}{section.10}
+\contentsline {subsection}{\numberline {2.6}Malware}{2}{subsection.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Statische Analyse}{2}{subsection.11}
+\contentsline {section}{\numberline {3}Analysemethoden}{2}{section.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Data Flow}{2}{subsubsection.12}
+\contentsline {subsection}{\numberline {3.1}Statische Analyse}{2}{subsection.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Control Flow}{2}{subsubsection.13}
+\contentsline {subsubsection}{\numberline {3.1.1}Data Flow}{2}{subsubsection.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Dynamische Analyse}{2}{subsection.14}
+\contentsline {subsubsection}{\numberline {3.1.2}Control Flow}{2}{subsubsection.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Bouncer}{2}{section.15}
+\contentsline {subsection}{\numberline {3.2}Dynamische Analyse}{2}{subsection.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}FlowDroid}{2}{section.16}
+\contentsline {section}{\numberline {4}Bouncer}{2}{section.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Crowdroid}{2}{section.17}
+\contentsline {section}{\numberline {5}Fazit}{2}{section.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Fazit}{2}{section.18}
+\contentsline {section}{Abk\IeC {\"u}rzungen}{2}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungen}{2}{section*.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{2}{section*.20}
+\contentsline {section}{Literatur}{2}{section*.19}

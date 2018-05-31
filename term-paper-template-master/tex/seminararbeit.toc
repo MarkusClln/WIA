@@ -17,34 +17,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6}Malware}{3}{subsection.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Dynamische Analyse}{3}{subsection.12}
+\contentsline {subsection}{\numberline {2.7}Dynamische Analyse}{3}{subsection.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Statische Analyse}{3}{subsection.13}
+\contentsline {subsection}{\numberline {2.8}Statische Analyse}{3}{subsection.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.1}Kontrollflussanalyse}{3}{subsubsection.14}
+\contentsline {subsubsection}{\numberline {2.8.1}Kontrollflussanalyse}{4}{subsubsection.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.2}Datenflussanalyse}{4}{subsubsection.16}
+\contentsline {subsubsection}{\numberline {2.8.2}Datenflussanalyse}{4}{subsubsection.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.9}Gegen\IeC {\"u}berstellung von statischer und dynamischer Analyse}{4}{subsection.17}
+\contentsline {subsection}{\numberline {2.9}Gegen\IeC {\"u}berstellung von statischer und dynamischer Analyse}{4}{subsection.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Erkennungsmechanismen}{4}{section.18}
+\contentsline {section}{\numberline {3}Erkennungsmechanismen}{4}{section.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}signaturbasierte Malwareerkennung}{4}{subsection.19}
+\contentsline {subsection}{\numberline {3.1}signaturbasierte Malwareerkennung}{4}{subsection.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Virenschutz durch Machine Learning}{4}{subsection.20}
+\contentsline {subsection}{\numberline {3.2}Virenschutz durch Machine Learning}{4}{subsection.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Data Flow}{4}{subsubsection.21}
+\contentsline {subsection}{\numberline {3.3}Integrit\IeC {\"a}tspr\IeC {\"u}fung}{5}{subsection.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Control Flow}{4}{subsubsection.22}
+\contentsline {subsection}{\numberline {3.4}Behavior Blocker}{5}{subsection.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Taint Analysis}{4}{subsubsection.23}
+\contentsline {subsubsection}{\numberline {3.4.1}Taint Analysis}{5}{subsubsection.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Bouncer}{4}{section.24}
+\contentsline {section}{\numberline {4}Bouncer}{5}{section.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Fazit}{4}{section.25}
+\contentsline {section}{\numberline {5}Fazit}{5}{section.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungen}{4}{section*.26}
+\contentsline {section}{Abk\IeC {\"u}rzungen}{5}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungen}{4}{section*.26}
+\contentsline {section}{Abbildungen}{5}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{4}{section*.27}
+\contentsline {section}{Literatur}{5}{section*.28}

@@ -7,46 +7,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Was ist Android?}{1}{subsection.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Android Update Problematik}{2}{subsection.6}
+\contentsline {subsection}{\numberline {2.2}Android Architektur}{1}{subsection.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Application Sandbox}{2}{subsection.8}
+\contentsline {subsection}{\numberline {2.3}Android Update Problematik}{2}{subsection.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Permission Model}{2}{subsection.9}
+\contentsline {subsection}{\numberline {2.4}Application Sandbox}{2}{subsection.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Sicherheit des Google Play Store}{2}{subsection.10}
+\contentsline {subsection}{\numberline {2.5}Permission Model}{2}{subsection.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Malware}{3}{subsection.11}
+\contentsline {subsection}{\numberline {2.6}Sicherheit des Google Play Store}{3}{subsection.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Ans\IeC {\"a}tze zur Merkmalsgenerierung}{3}{section.13}
+\contentsline {subsection}{\numberline {2.7}Malware}{3}{subsection.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Dynamische Analyse}{3}{subsection.14}
+\contentsline {section}{\numberline {3}Ans\IeC {\"a}tze zur Merkmalsgenerierung}{4}{section.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Statische Analyse}{3}{subsection.15}
+\contentsline {subsection}{\numberline {3.1}Dynamische Analyse}{4}{subsection.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Kontrollflussanalyse}{4}{subsubsection.16}
+\contentsline {subsection}{\numberline {3.2}Statische Analyse}{4}{subsection.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Datenflussanalyse}{4}{subsubsection.18}
+\contentsline {subsubsection}{\numberline {3.2.1}Kontrollflussanalyse}{4}{subsubsection.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Gegen\IeC {\"u}berstellung von statischer und dynamischer Analyse}{4}{subsection.19}
+\contentsline {subsubsection}{\numberline {3.2.2}Datenflussanalyse}{4}{subsubsection.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Erkennungsmechanismen}{4}{section.20}
+\contentsline {subsection}{\numberline {3.3}Gegen\IeC {\"u}berstellung von statischer und dynamischer Analyse}{4}{subsection.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}signaturbasierte Malwareerkennung}{4}{subsection.21}
+\contentsline {section}{\numberline {4}Erkennungsmechanismen}{5}{section.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Virenschutz durch Machine Learning}{4}{subsection.22}
+\contentsline {subsection}{\numberline {4.1}signaturbasierte Malwareerkennung}{5}{subsection.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Integrit\IeC {\"a}tspr\IeC {\"u}fung}{5}{subsection.23}
+\contentsline {subsection}{\numberline {4.2}Virenschutz durch Machine Learning}{5}{subsection.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Behavior Blocker}{5}{subsection.24}
+\contentsline {subsection}{\numberline {4.3}Integrit\IeC {\"a}tspr\IeC {\"u}fung}{5}{subsection.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Heuristische Analysis}{5}{subsection.25}
+\contentsline {subsection}{\numberline {4.4}Behavior Blocker}{5}{subsection.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Bouncer}{5}{section.26}
+\contentsline {subsection}{\numberline {4.5}Heuristische Analysis}{5}{subsection.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Fazit}{5}{section.27}
+\contentsline {subsection}{\numberline {4.6}Taint Analysis}{6}{subsection.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abk\IeC {\"u}rzungen}{6}{section*.28}
+\contentsline {section}{\numberline {5}Fazit}{6}{section.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungen}{6}{section*.28}
+\contentsline {section}{Abbildungen}{6}{section.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literatur}{6}{section*.29}
+\contentsline {section}{Literatur}{6}{section*.30}
